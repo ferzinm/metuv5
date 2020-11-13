@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="mob/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script src="src/jquery.time-to.js"></script>
+    <link rel="stylesheet" href="src/timeTo.css">
+    <link rel="shortcut icon" href="medutox.ico" type="image/x-icon">
+
+    <style>
+        .ac_footer {
+            position: relative;
+            top: 10px;
+            height: 0;
+            text-align: center;
+            margin-bottom: 70px;
+            color: #A12000;
+        }
+        
+        .ac_footer a {
+            color: #A12000;
+        }
+        
+        .ac_footer p {
+            text-align: center;
+        }
+        
+        img[height="1"],
+        img[width="1"] {
+            display: none !important;
+        }
+    </style>
+    <!--retarget-->
+    <!--retarget-->
+
+    <meta charset="utf-8" />
+    <title> Medutox </title>
+    <link href="src/main.css" rel="stylesheet" />
+    <style>
+        .block_3 ._left ul li:before,
+        .block_14 ul li div span:before,
+        .block_14 ul li div span+span:before {
+            content: 'vor'
+        }
+        
+        .block_3 ._left ul li:last-child:before,
+        .block_14 ul li div span+span:before {
+            content: 'nach'
+        }
+        
+        .block_8 ._left>li>span:first-child:before {
+            content: 'Phase №' counter(fix)
+        }
+        
+        .block_14 .dop ul li div span+span:before {
+            content: 'nach 1 MONAT'
+        }
+        
+        .block_14 .dop ul li:last-child div span+span:before {
+            content: 'nach 3 monaten'
+        }
+        
+        .block_14 .img_list li:nth-child(5) div span:before {
+            content: '3 MONATEN NACH DER NUTZUNG'
+        }
+        
+        .block_14 .img_list li:nth-child(7) div span:before {
+            content: 'EIN MONAT NACH DER NUTZUNG'
+        }
+    </style>
+    <style>
+        .bitte {
+            font-size: 12px;
+            color: #222;
+            text-align: center;
+            padding: 10px 15px 0;
+        }
+    </style>
+
+    <link href="mob/jquery.bxslider.css" rel="stylesheet" />
+    <link href="mob/main.css" rel="stylesheet" />
+
+</head>
+
+<body data-lang="DE">
+    <script src="counter.js"></script>
+
+    <div class="dec-block">
+        <p>
+            <div class="payment_timeout" style="display:none !important">300</div>
+
+        </p>
+        <div class="hide-it s__main">
+            <div class="block_1">
+                <div class="container">
+                    <div class="content">
+                        <div class="logo">
+                            <span> Medutox </span>
+                        </div>
+                        <p> Besser als Botox! </p>
+                        <div class="print"> Ihr <u> Sieg </u> <span> über das Altern </span></div>
+                        <div class="product">
+                            <img class="header-product" src="src/product.png" />
+                            <span></span>
+                        </div>
+                        <ul>
+                            <li><span><b> Glättet </b> Falten </span></li>
+                            <li><span><b> Liftet </b> Ihr Gesicht </span></li>
+                            <li><span><b> Verbessert </b> die Hautstruktur </span></li>
+                            <li><span><b> Schließt die </b> Poren </span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom_line">
+                    <ul class="container">
+                        <li><b> Achtung! </b> Wir garantieren, dass das Serum während der</li>
+                        <li>
+                            <b> Sonderangebotsphase erhältlich ist! </b>
+                            <div id="countdown-1"></div>
+                        </li>
+                        <li>
+                            <button class="toform" data-toggle="scroll" data-id="#order_form"><span> Bestellen Sie <b> jetzt </b></span></button>
+                            <div class="price">
+                                <div>
+                                    <b class="new_price "><span class="new_price_val">49</span> <span class="new_price_cur">€</span></b>
+                                    <span class="old_price">
+                                        <span class="old_price_val">98</span>
+                                    <b class="js_curs old_price_cur">€</b>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="discount">-50
+                                <small> %</small>
+                                <span> Nachlass </span>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="container">
+                        <div class="bitte">
+                            *Bitte achten Sie darauf, dass die örtlichen Mehrwertsteurersätze sich voneinander unterscheiden können, es hängt von den Regeln des Landes ab, wo Sie ein Produkt bestellen. Unsere Kundenberater werden Ihnen gerne helfen, die richtige Mehrwertsteuer zu
+                            bestimmen.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block_2">
+                <div class="container">
+                    <h3><b>4</b> Ursachen des <span> Alterns </span></h3>
+                    <ul class="list_aging">
+                        <li>
+                            <span><b> Zu wenig </b> Feuchtigkeit </span>
+                            <ul>
+                                <li> Feuchtigkeit - <b> entscheidender Faktor </b> der Jugend</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span><b> Mangel an </b> Kollagen </span>
+                            <ul>
+                                <li> Die Haut <b> verliert </b> Elastizität</li>
+                                <li> Gesichtshaut <b> sackt zusammen </b></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span><b> Gifte </b> im Körper </span>
+                            <ul>
+                                <li> Der Teint <b> wird schwächer </b></li>
+                                <li><b> Die Haut verliert </b> ihre Widerstandskraft</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span> Einfluss <b> von UV-Strahlen </b></span>
+                            <ul>
+                                <li><b> Schädigung </b> der Fettschicht</li>
+                                <li><b> Zerstörung von </b> Schutzbarrieren</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li> für <span>30</span><br/> Jahre</li>
+                                <li> und <span>40</span><br/> Jahre</li>
+                                <li> und <span>50</span><br/> Jahre</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block_3">
+                <div class="container">
+                    <div class="_left">
+                        <h3> Tiefe <b> Regeneration von </b> <br/> Zellen und Gesichtshaut </h3>
+                        <ul>
+                            <li><img src="src/skin_before.png" /></li>
+                            <li>
+                                <img src="src/skin_after.png" />
+                                <div class="print"><span> Medutox </span></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="_right">
+                        <div class="secret">
+                            <img src="src/product.png" />
+                            <p> Medutox </p>
+                            <p> das wichtigste Geheimnis von <b> Jugendlichkeit </b></p>
+                        </div>
+                        <p> Die Anti-Aging Formel enthält Vitamine und Mineralien, die alle Probleme der Hautalterung bearbeiten.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="block_4">
+                <div class="container">
+                    <h3> Ein komplexer Ansatz für die <b> Rückkehr zur Jugendlichkeit </b> <span>3
+                            <small> im Bereich</small>
+                            1</span>
+                    </h3>
+                    <ul class="young">
+                        <li>
+                            <span> Feuchtigkeit </span>
+                            <ul>
+                                <li> Aktive Bestandteile <b> dringen </b> in die Oberhaut ein</li>
+                                <li><b> Glättet </b> Falten, bringt gesunden Teint zurück</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span> Nahrung </span>
+                            <ul>
+                                <li><b> Nährt die Haut </b> mit Vitaminen und Mikronährstoffen</li>
+                                <li><b> Stimuliert </b> Kollagen- und Elastinproduktion</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span> Revitalisierung </span>
+                            <ul>
+                                <li> Kollagen und Elastin <b> glätten </b> Falten</li>
+                                <li> Die Creme bildet eine <b> Schutzschicht </b> auf der Hautoberfläche</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <img src="src/product.png" />
+                            <div class="sm_logo">
+                                <span> Medutox </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block_5">
+                <div class="container">
+                    <h3> Medutox - außergewöhnliche Naturkomposition </h3>
+                    <div class="_left">
+                        <img src="src/product.png" />
+                        <span> </span>
+                    </div>
+                    <div class="_right">
+                        <ul>
+                            <li>
+                                <p><span> Olivenöl  </span>
+                                </p>
+                                <p><span> Algenextrakt  </span>
+                                </p>
+                            </li>
+                            <li>
+                                <p><span> Zitronenlimonen Öl </span>
+                                </p>
+                                <p><span> Pfefferminzöl  </span>
+                                </p>
+                            </li>
+                            <li>
+                                <p><span> Salvia ocinalis </span>
+                                </p>
+                                <p><span> Gelee-Extrakt  </span>
+                                </p>
+                            </li>
+                            <li>
+                                <p><span> Kamillenwasser </span>
+                                </p>
+                                <p><span> PEG 100-Stearat  </span>
+                                </p>
+                            </li>
+                            <li>
+                                <p><span> Glycerylstearat </span>
+                                </p>
+                                <p><span>Natriumbenzoat </span>
+                                </p>
+                            </li>
+                            <li>
+                                <p><span> Phenoxyethanol / Ethylhexylglycerin </span>
+                                </p>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="block_6">
+                <div class="container">
+                    <div class="_left">
+                        <div class="print"> Wirkung auf <b> molekularer Ebene </b></div>
+                    </div>
+                    <div class="_right">
+                        <h3> Befeuchtung und Ernährung </h3>
+                        <p> Aktive Befeuchtung und Ernährung liefern <b> eine schnellere Zellerneuerung. </b> Medutox <b>
+                                regeneriert die oberste Hautschicht. </b>
+                        </p>
+                        <div class="logo">
+                            <span> Medutox </span>
+                        </div>
+                        <span> Serumformel bietet Faltenglättung in 30 Tagen! </span>
+                        <ul>
+                            <li><span> Zellen erhalten genügend <b> Feuchtigkeit </b></span></li>
+                            <li><span> Wiederauffüllung von <b> Vitaminen </b></span></li>
+                            <li><span> Schützt vor <b> Umwelteinflüssen </b></span></li>
+                        </ul>
+                        <button class="toform" data-toggle="scroll" data-id="#order_form"><span> Bestellen Sie <b> jetzt </b></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="block_7_1">
+                <div class="container">
+                    <h3> Intensiver <b> Schutz </b> der Haut </h3>
+                    <ul class="img_anim">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li><s></s><s></s><s></s><s></s></li>
+                        <li><s></s><s></s><s></s></li>
+                        <li><s></s><s></s><s></s></li>
+                        <li></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <span> Aktive Befeuchtung </span>
+                            <ul>
+                                <li> Die Moleküle in der Anti-Aging-Formel von Medutox ziehen die Luftfeuchtigkeit an, dringen in tiefere Hautschichten ein und ernähren die Zellen.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span> Hauterneuerung </span>
+                            <ul>
+                                <li> Antioxidantien in den Serumbestandteilen dringen in die tiefsten Hautschichten ein, füllen die Zellen und ersetzen so die Giftstoffe.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span> Glättung von Falten </span>
+                            <ul>
+                                <li> Die regenerierte Haut produziert Kollagen, das die Falten aktiv glättet.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block_8">
+                <div class="container">
+                    <ul class="_left">
+                        <li>
+                            <img src="src/product.png" />
+                            <div><span> Medutox </span></div>
+                            <p> ist einfach anzuwenden </p>
+                            <span> 2 Schritte zur Hautverjüngung: </span>
+                        </li>
+                        <li>
+                            <span> Die Haut vorsichtig von Make-up und Verschmutzungen reinigen, mit einem Reiniger oder
+                                Tonic. </span>
+                        </li>
+                        <li>
+                            <span> Das Serum zur Hautreinigung mit klopfenden Bewegungen auftragen und dabei den Augenbereich
+                                aussparen. Für eine maximale Wirkung verwenden Sie das Serum morgens und abends. </span>
+                        </li>
+                    </ul>
+                    <div class="_right">
+                        <h3> Sie erhalten </h3>
+                        <ul>
+                            <li><span><b> eine glatte </b> und <b> elastische </b> Haut </span></li>
+                            <li><span><b> Elastisches </b> und klares Aussehen des Gesichts </span></li>
+                            <li><span> Beseitigung aller <b> Mängel </b></span></li>
+                            <li><span><b> Gesunder </b> und strahlender Teint </span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="block_9">
+                <div class="container">
+                    <h3> Wir haben <b> unsere Kunden </b> gefragt: </h3>
+                    <ul>
+                        <li>
+                            <div>49 <span> Tausend </span> <span> Frauen </span></div>
+                            <p> empfanden <b> den Verjüngungseffekt </b> von Medutox </p>
+                        </li>
+                        <li>
+                            <div> 97% <span> der Frauen </span></div>
+                            <p> bestätigten <b> die Glättung von Falten </b></p>
+                        </li>
+                        <li>
+                            <div> 87% <span> der Frauen </span></div>
+                            <p> bemerkten <b> die Verbesserung </b> des Teints </p>
+                        </li>
+                        <li>
+                            <div>99
+                                <small> .8%</small>
+                                <span> der Frauen </span>
+                            </div>
+                            <p><b> sind vollkommen zufrieden </b> mit Medutox </p>
+                        </li>
+                        <li>
+                            <div>5 <span> Anwendungen </span></div>
+                            <p> um <b> sichtbare Verbesserung zu erreichen </b></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block_10">
+                <div class="container">
+                    <div class="title">
+                        Warum ist <span> Medutox </span>
+                        <p> das Nr.1-Produkt für die Verjüngung? </p>
+                    </div>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th><img src="src/product.png" /><span> Medutox </span></th>
+                            <th> Gesichtsmassage</th>
+                            <th> Ein Heilbehandlungskurs</th>
+                            <th> Plastische Chirurgie</th>
+                            <th> Verjüngungskurse</th>
+                        </tr>
+                        <tr>
+                            <td> Effektivität</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td> Schnelles Ergebnis</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td> Zu Hause anwenden</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td> Schmerzfrei</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td> Sicherheit</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <p> Die Wirksamkeit von Medutox ist klinisch nachgewiesen </p>
+                </div>
+            </div>
+            <div class="block_11">
+                <div>
+                    <div class="container">
+                        <div class="product">
+                            <img src="src/product.png" />
+                            <span> </span>
+                        </div>
+                        <div class="text">
+                            <p><b> Wirkung </b> nach wenigen Tagen der Anwendung </p>
+                            <p> Ihre Haut <span> wird jünger </span> in kürzester Zeit </p>
+                            <button class="toform" data-toggle="scroll" data-id="#order_form"><span> Bestellen Sie <b> jetzt </b></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block_12">
+                <div class="container">
+                    <div class="print"> Schnell und <b> wirksam </b></div>
+                    <p> Die Ergebnisse der Anwendung von <span> Medutox </span></p>
+                    <ul>
+                        <li><span> 1 Woche </span></li>
+                        <li><span> 2 Woche </span></li>
+                        <li><span> 3 Woche </span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block_13">
+                <div class="container">
+                    <h3> Profis schätzen <b> Medutox besser ein als Botox! </b></h3>
+                    <div class="text">
+                        <p> Die Wirksamkeit von <span><span> Medutox </span></span> ist durch Dutzende von <b> Forschungen
+                                bewiesen, </b> durch wissenschaftliche <b> Patente </b> und langfristige <b> Versuche. </b>
+                        </p>
+                        <p><b> Nanoformel </b> wirkt gleichzeitig <b> und effektiv </b> gegen ältere Falten und sich gerade entwickelnde Alterungszeichen.
+                        </p>
+                        <p> Medutox ist das stärkste und wirksamste Produkt gegen Hautalterung, aufgrund einer maximalen Konzentration natürlicher Bestandteile.
+                        </p>
+                        <p><span class="ryear">2016</span> wurde Medutox als einzige Alternaitve zu Verjüngungsinjektionen anerkannt.
+                        </p>
+                        <p><i> Gesine Mautz <br/> Dermatologin, <br/> Doktorandin in Medizin </i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="block_14">
+                <div class="container">
+                    <h3><b> Resultate und Fotos </b> unserer Kunden </h3>
+                    <ul class="photo_ins">
+                        <li><img src="src/ins1.jpg" /></li>
+                        <li><img src="src/ins2.jpg" /></li>
+                        <li><img src="src/ins3.jpg" /></li>
+                    </ul>
+                </div>
+                <div class="dop">
+                    <div class="container">
+                        <ul>
+                            <li>
+                                <div>
+                                    <img src="src/before_after_1.jpg" />
+                                    <span class="before"></span><span class="after"></span>
+                                </div>
+                                <p> Kathatrina Naumburg, 47 Jahre </p>
+                                <p> "In der ersten Woche verschwanden die Säcke unter den Augen und am Ende des Monats glätteten sich die schrecklichen Falten auf meiner Stirn. Ich bin glücklich!"
+                                </p>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="src/before_after_2.jpg" />
+                                    <span class="before"></span><span class="after"></span>
+                                </div>
+                                <p> Andrea Ostermann, 41 Jahre </p>
+                                <p> "Ich benutze es seit einem Monat - in der U-Bahn bietet mir keiner mehr einen Sitz an und niemand nennt mich mehr 'eine Frau'"
+                                </p>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="src/before_after_3.jpg" />
+                                    <span class="before"></span><span class="after"></span>
+                                </div>
+                                <p> Anne-Marie Christian, 32 Jahre </p>
+                                <p> "Ich bin in 3 Monaten 5 Jahre jünger geworden! Andere Produkte haben nichts genützt. Ich fühle mich jetzt wieder bestens!"
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container">
+                    <ul class="img_list">
+                        <li>
+                            <div>
+                                <img src="src/before_after_4.jpg" />
+                                <span class="before2"></span><span class="after2"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="src/before_after_5.jpg" />
+                                <span class="before2"></span><span class="after2"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="src/before_after_6.jpg" />
+                                <span class="before2"></span><span class="after2"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="src/before_after_7.jpg" />
+                                <span class="before2"></span><span class="after2"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="src/before_after_8.jpg" />
+                                <span class="before2"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="src/before_after_9.jpg" />
+                                <span class="before2"></span><span class="after2"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="src/before_after_10.jpg" />
+                                <span class="before2"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="src/before_after_11.jpg" />
+                                <span class="before2"> </span><span class="after2"> </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="src/before_after_12.jpg" />
+                                <span class="before2"> </span><span class="after2"> </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block_15">
+                <div class="container">
+                    <div class="content">
+                        <div class="logo">
+                            <span> Medutox </span>
+                        </div>
+                        <p> Besser als Botox! </p>
+                        <div class="_left">
+                            <p> Bestellen Sie jetzt, Sie erhalten </p>
+                            <span> Rabatt: </span>
+                            <big> -50% </big>
+                        </div>
+                        <div class="_right">
+                            <img src="src/product.png" />
+                            <span> </span>
+                        </div>
+                        <div class="_left _b">
+                            <b> Achtung! </b> Wir garantieren, dass das Serum während der
+                        </div>
+                        <div class="_right _b">
+                            <b> Sonderangebotsphase verfügbar ist! </b>
+                            <div id="countdown-2"></div>
+                        </div>
+                    </div>
+                    <div class="form">
+                        <p> Bestellregistrierung </p>
+                        <ul class="price">
+                            <li> neuer <br/> Preis</li>
+                            <li class=" new_price"><span class="new_price_val">49</span> <span class="new_price_cur">€</span></li>
+                            <li class="old_price">
+                                <span class="old_price_val">98</span>
+                                <b class="js_curs old_price_cur"> €</b>
+                            </li>
+                        </ul>
+                        <form action="" id="order_form" method="post" class="landing__form">
+                            <select class="country" id="country_code_selector" name="country">
+
+                            </select>
+                            <input name="name" placeholder="Vor-und Nachname" type="text" data-count-length='2+' />
+                            <input class="only_number" name="phone" placeholder="Telefon" type="text" />
+
+                            <button class="js_submit" type="submit"><span> Bestellen Sie <b> jetzt </b></span></button>
+                        </form>
+                        <div class="bitte">
+                            *Bitte achten Sie darauf, dass die örtlichen Mehrwertsteurersätze sich voneinander unterscheiden können, es hängt von den Regeln des Landes ab, wo Sie ein Produkt bestellen. Unsere Kundenberater werden Ihnen gerne helfen, die richtige Mehrwertsteuer zu
+                            bestimmen.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block_16">
+                <div class="container">
+                    <center></center>
+                </div>
+            </div>
+        </div>
+        <script src="src/common.js" type="text/javascript"></script>
+        <!--  -->
+
+        <link type="text/css" href="src/5_6.min.css" rel="stylesheet" media="all">
+        <style>
+            .button__text:after {
+                content: '*';
+                display: inline-block;
+                font-size: 75%;
+                vertical-align: top;
+            }
+            
+            .ac_gdpr_fix {
+                position: fixed;
+                font-family: Arial, "Nimbus Sans L", Helvetica, sans-serif !important;
+                font-size: 18px;
+                bottom: 0;
+                left: 10px;
+                right: 10px;
+                background-color: #fff;
+                z-index: 10000;
+                text-align: center;
+                padding: 7px 25px;
+                border-radius: 15px 15px 0 0;
+                color: #000;
+                border: 1px solid #000;
+                border-bottom: none;
+                line-height: 1 !important;
+            }
+            
+            .ac_gdpr_fix a {
+                font-size: 18px;
+                color: red !important;
+                font-weight: 700 !important;
+                text-decoration: none !important;
+            }
+            
+            .ac_gdpr_fix a:hover {
+                text-decoration: underline !important;
+            }
+            
+            .close_gdpr_warn {
+                font-size: 18px;
+                font-weight: 700;
+                cursor: pointer;
+                color: red;
+            }
+            
+            body {
+                padding-bottom: 40px;
+            }
+            
+            @media only screen and (max-width: 1230px) {
+                .ac_gdpr_fix,
+                .ac_gdpr_fix a,
+                .close_gdpr_warn {
+                    font-size: 15px;
+                }
+                body {
+                    padding-bottom: 50px;
+                }
+            }
+            
+            @media only screen and (max-width: 768px) {
+                .ac_gdpr_fix {
+                    padding: 5px;
+                    left: 0;
+                    right: 0;
+                }
+                .ac_gdpr_fix,
+                .ac_gdpr_fix a,
+                .close_gdpr_warn {
+                    font-size: 13px;
+                }
+                body {
+                    padding-bottom: 60px;
+                }
+            }
+        </style>
+        <div class="ac_footer">
+            <span> SUMMER ALLIANCE LTD <br> Reg. No. 195655 <br> Tenancy 10, Marina House, Eden Island, Mahe, Seychelles </span> <br>
+            <span>&copy; <script type="text/javascript">var mdate = new Date(); document.write(mdate.getFullYear());</script>
+                Copyright. All rights reserved.</span><br>
+            <a href="../../privacy.html">Privacy policy</a> | <a href="../../report.html">Report</a>
+            <p></p>
+        </div>
+    </div>
+
+    <div class="mob-block">
+        <p>
+            <div class="payment_timeout" style="display:none !important">300</div>
+
+        </p>
+        <div class="hide-it s__main">
+            <div class="block_1">
+                <div class="container">
+                    <div class="logo">
+                        <span>Medutox</span>
+                    </div>
+                    <p>Besser als Botox!</p>
+                    <div class="product">
+                        <img src="mob/product.png" />
+                        <span></span>
+                    </div>
+                    <div class="panel">
+                        <div class="discount">-50
+                            <small>%</small>
+                            <span>NACHLASS</span>
+                        </div>
+                        <div class="price">
+                            <div>
+                                <b class="new_price "><span class="new_price_val">49</span> <span class="new_price_cur">€</span></b>
+                                <span class="old_price">
+                                <span class="old_price_val">98</span>
+                                <b class="js_curs old_price_cur">€</b>
+                                </span>
+                            </div>
+                        </div>
+                        <button class="toform" data-toggle="scroll" data-id="#order_form2"><span> Bestellen Sie <b> jetzt </b></span></button>
+                    </div>
+                    <div class="bitte">
+                        *Bitte achten Sie darauf, dass die örtlichen Mehrwertsteurersätze sich voneinander unterscheiden können, es hängt von den Regeln des Landes ab, wo Sie ein Produkt bestellen. Unsere Kundenberater werden Ihnen gerne helfen, die richtige Mehrwertsteuer zu
+                        bestimmen.
+                    </div>
+                </div>
+            </div>
+            <div class="block_2">
+                <div class="container">
+                    <ul>
+                        <li><span><b> Glättet </b> Falten </span></li>
+                        <li><span><b> Liftet </b> Ihr Gesicht </span></li>
+                        <li><span><b> Verbessert </b> die Hautstruktur </span></li>
+                        <li><span><b> Schließt die </b> Poren </span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block_3">
+                <div class="container">
+                    <h3>Tiefe <b> Regeneration von </b> <br/> Zellen und Gesichtshaut </h3>
+                    <div class="secret">
+                        <img src="mob/product.png" />
+                        <p><b>Medutox</b></p>
+                        <p>das wichtigste Geheimnis von <b> Jugendlichkeit </b></p>
+                    </div>
+                    <ul>
+                        <li><img src="mob/skin_before.png" /></li>
+                        <li>
+                            <img src="mob/skin_after.png" />
+                            <div class="print"><span>Medutox</span></div>
+                        </li>
+                    </ul>
+                    <p> Die Anti-Aging Formel enthält Vitamine und Mineralien, die alle Probleme der Hautalterung bearbeiten.
+                    </p>
+                </div>
+            </div>
+            <div class="block_4">
+                <div class="container">
+                    <h3> Ein komplexer Ansatz für die <b> Rückkehr zur Jugendlichkeit </b></h3>
+                    <ul class="young">
+                        <li>
+                            <span>Feuchtigkeit</span>
+                            <p>Aktive Bestandteile <b> dringen </b> in die Oberhaut ein</p>
+                            <p><b> Glättet </b> Falten, bringt gesunden Teint zurück</p>
+                        </li>
+                        <li>
+                            <span>Nahrung</span>
+                            <p><b> Nährt die Haut </b> mit Vitaminen und Mikronährstoffen</p>
+                            <p><b> Stimuliert </b> Kollagen- und Elastinproduktion</p>
+                        </li>
+                        <li>
+                            <span>Revitalisierung</span>
+                            <p>Kollagen und Elastin <b> glätten </b> Falten</p>
+                            <p>Die Creme bildet eine <b> Schutzschicht </b> auf der Hautoberfläche</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block_5">
+                <div class="container">
+                    <h3>Medutox - außergewöhnliche Naturkomposition</h3>
+                    <ul>
+                        <li><span>Betain- und Gemüseöle</span></li>
+                        <li><span>Goji-Beeren-Extrakt</span></li>
+                        <li><span>Vitamin C, E und B</span></li>
+                        <li><span>Komplex aus Aminosäuren</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block_6">
+                <div class="container">
+                    <div class="logo">
+                        <span>Medutox</span>
+                    </div>
+                    <span>Cremeformel bietet Faltenglättung in 30 Tagen!</span>
+                    <ul>
+                        <li><span> Zellen erhalten genügend <b> Feuchtigkeit </b></span></li>
+                        <li><span> Wiederauffüllung von <b> Vitaminen </b></span></li>
+                        <li><span> Schützt vor <b> Umwelteinflüssen </b></span></li>
+                    </ul>
+                    <button class="toform" data-toggle="scroll" data-id="#order_form2"><span> Bestellen Sie <b> jetzt </b></span></button>
+                </div>
+            </div>
+            <div class="block_8">
+                <div class="container">
+                    <h3>Sie erhalten:</h3>
+                    <ul>
+                        <li><span><b> eine glatte </b> und <b> elastische </b> Haut </span></li>
+                        <li><span><b> Elastisches </b> und klares Aussehen des Gesichts </span></li>
+                        <li><span> Beseitigung aller <b> Mängel </b></span></li>
+                        <li><span><b> Gesunder </b> und strahlender Teint </span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block_11">
+                <div class="container">
+                    <h3><b> Wirkung </b> nach wenigen Tagen der Anwendung</h3>
+                    <p>Ihre Haut <span> wird jünger </span> in kürzester Zeit</p>
+                    <img src="mob/product.png" />
+                    <button class="toform" data-toggle="scroll" data-id="#order_form2"><span> Bestellen Sie <b> jetzt </b></span></button>
+                </div>
+            </div>
+            <div class="block_12">
+                <div class="container">
+                    <p>Die Ergebnisse der Anwendung von <span> Medutox </span></p>
+                    <ul>
+                        <li><span> 1 Woche </span></li>
+                        <li><span> 2 Woche </span></li>
+                        <li><span> 3 Woche </span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block_13">
+                <div class="container">
+                    <h3>Profis schätzen <b> Medutox besser ein als Botox! </b></h3>
+                    <div class="text">
+                        <p>Die Wirksamkeit von <span><span> Medutox </span></span> ist durch Dutzende von <b> Forschungen
+                            bewiesen, </b> durch wissenschaftliche <b> Patente </b> und langfristige <b> Versuche. </b>
+                        </p>
+                        <p><b> Nanoformel </b> wirkt gleichzeitig <b> und effektiv </b> gegen ältere Falten und sich gerade entwickelnde Alterungszeichen.
+                        </p>
+                        <p> Medutox ist das stärkste und wirksamste Produkt gegen Hautalterung, aufgrund einer maximalen Konzentration natürlicher Bestandteile.
+                        </p>
+                        <p><span class="ryear">2016</span> wurde Medutox als einzige Alternaitve zu Verjüngungsinjektionen anerkannt.</p>
+                        <p><i> Gesine Mautz <br/> Dermatologin, <br/> Doktorandin in Medizin </i></p>
+                    </div>
+                </div>
+                <div class="block_14">
+                    <div class="container">
+                        <h3><b> Resultate und Fotos </b> unserer Kunden </h3>
+                        <ul class="photo_ins">
+                            <li><img src="mob/ins1.jpg" /></li>
+                            <li><img src="mob/ins2.jpg" /></li>
+                            <li><img src="mob/ins3.jpg" /></li>
+                        </ul>
+                        <ul class="img_list">
+                            <li>
+                                <div>
+                                    <img src="mob/before_after_2.jpg" />
+                                    <span></span><span></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="mob/before_after_6.jpg" />
+                                    <span></span><span></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="mob/before_after_5.jpg" />
+                                    <span></span><span></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block_15">
+                    <div class="container">
+                        <div class="form">
+                            <p>Bestellregistrierung</p>
+                            <ul class="price">
+                                <li>neuer <br/> Preis</li>
+                                <li class=" new_price"><span class="new_price_val">49</span> <span class="new_price_cur">€</span></li>
+                                <li class="old_price">
+                                    <span class="old_price_val">98</span>
+                                    <b class="js_curs old_price_cur">€</b>
+                                </li>
+                            </ul>
+                            <form action="" id="order_form2" class="landing__form" method="post">
+
+                                <select class="country" id="country_code_selector" name="country">
+
+                            </select>
+                                <input name="name" placeholder="Vor-und Nachname" type="text" data-count-length='2+' />
+                                <input class="only_number" name="phone" placeholder="Telefon" type="text" />
+                                <button class="js_submit" type="submit"><span> Bestellen Sie <b> jetzt </b></span></button>
+                            </form>
+                        </div>
+                        <div class="bitte">
+                            *Bitte achten Sie darauf, dass die örtlichen Mehrwertsteurersätze sich voneinander unterscheiden können, es hängt von den Regeln des Landes ab, wo Sie ein Produkt bestellen. Unsere Kundenberater werden Ihnen gerne helfen, die richtige Mehrwertsteuer zu
+                            bestimmen.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="mob/jquery.bxslider.min.js" type="text/javascript"></script>
+        <script src="mob/common.js" type="text/javascript"></script>
+
+
+
+
+
+        <link type="text/css" href="mob/5_6.min.css" rel="stylesheet" media="all">
+        <style>
+            .button__text:after {
+                content: '*';
+                display: inline-block;
+                font-size: 75%;
+                vertical-align: top;
+            }
+            
+            .ac_gdpr_fix {
+                position: fixed;
+                font-family: Arial, "Nimbus Sans L", Helvetica, sans-serif !important;
+                font-size: 18px;
+                bottom: 0;
+                left: 10px;
+                right: 10px;
+                background-color: #fff;
+                z-index: 10000;
+                text-align: center;
+                padding: 7px 25px;
+                border-radius: 15px 15px 0 0;
+                color: #000;
+                border: 1px solid #000;
+                border-bottom: none;
+                line-height: 1 !important;
+            }
+            
+            .ac_gdpr_fix a {
+                font-size: 18px;
+                color: red !important;
+                font-weight: 700 !important;
+                text-decoration: none !important;
+            }
+            
+            .ac_gdpr_fix a:hover {
+                text-decoration: underline !important;
+            }
+            
+            .close_gdpr_warn {
+                font-size: 18px;
+                font-weight: 700;
+                cursor: pointer;
+                color: red;
+            }
+            
+            body {
+                padding-bottom: 40px;
+            }
+            
+            @media only screen and (max-width: 1230px) {
+                .ac_gdpr_fix,
+                .ac_gdpr_fix a,
+                .close_gdpr_warn {
+                    font-size: 15px;
+                }
+                body {
+                    padding-bottom: 50px;
+                }
+            }
+            
+            @media only screen and (max-width: 768px) {
+                .ac_gdpr_fix {
+                    padding: 5px;
+                    left: 0;
+                    right: 0;
+                }
+                .ac_gdpr_fix,
+                .ac_gdpr_fix a,
+                .close_gdpr_warn {
+                    font-size: 13px;
+                }
+                body {
+                    padding-bottom: 60px;
+                }
+            }
+        </style>
+        <div class="ac_footer">
+            <span>SUMMER ALLIANCE LTD <br> Reg. No. 195655 <br> Tenancy 10, Marina House, Eden Island, Mahe, Seychelles</span><br>
+            <a href="privacy.html">Privacy policy</a> | <a href="report.html">Report</a>
+        </div>
+    </div>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-url-parser/2.3.1/purl.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
+    <script src="//click.lucky.online/js/leadprofit.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("form").leadprofit({
+                hash: "db184a69-5411-45d6-a74a-c71d0ba5e320"
+            }).leadprofitSubmit({
+                confirmUrl: 'confirm.html',
+                counterParams: {
+                    country: "{country}",
+                    version: document.location.pathname.replace(/\/+/g, '').replace('landings', '').replace('index.html', '').replace('index2.html', '').replace('confirm.html', '')
+                }
+            });
+        });
+    </script>
+    <script src="price.js"></script>
+</body>
+
+</html>

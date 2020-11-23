@@ -1,101 +1,40 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html xmlns="//www.w3.org/1999/xhtml" xml:lang="en">
 
 <head>
     <title>
-        Danke! für Ihre Bestellung!
+        ¡Gracias! ¡Su pedido ha sido aceptado!
     </title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=320" />
     <meta name="MobileOptimized" content="width=320" />
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link media="all" rel="stylesheet" type="text/css" href="confirm/order-style.css">
 </head>
 
 <body>
-    <script src="counter.js"></script>
     <div id="wrapper">
         <div class="container">
             <span class="decoration">
-        </span>
+            </span>
             <div class="order-block">
                 <div class="text-holder">
-                    <h2>Danke für die Bestellung!</h2>
-                    <p>Sie werden so bald wie möglich von einer anonymen Nummer angerufen. Stellen Sie sicher, dass Sie keine aktiven Programme für diese Art von Anruf haben! </p>
-                </div>
-                <div class="text-adress">
-                    <h2>Geben Sie Ihre Adresse ein für:</h2>
-                    <p>
-                        <ul>
-                            <li>Berechnung der Versandkosten</li>
-                            <li>Expressversand</li>
-                        </ul>
-                    </p>
-                    <form class="order-form" id="email_form" action="#">
-                        <fieldset>
-                            <div class="text">
-                                <input name="adress" type="text" placeholder="Geben Sie Ihre Adresse ein">
-                            </div>
-                            <button class="btn-save-adress" id="adress" type="button">Absenden</button>
-                        </fieldset>
-                    </form>
+                    <h2>Gracias por su orden!</h2>
+                    <p>Muy pronto le llaman por un número desconocido. Por favor compruebe si sus programas de llamadas entrantes están apagados o restrictivos</p>
                 </div>
                 <div class="text-box">
                     <h2>
-                        Nehmen Sie an <span>der Aktion teil.</span>
+                        Participe en <span>la promoción.</span>
                     </h2>
                     <p>
-                        Um an der Aktion teilzunehmen und den Status Ihrer Bestellung zu verfolgen, geben Sie Ihre Email-Adresse ein und drücken Sie auf „Speichern“!
+                        Para participar en la oferta especial y seguir el estado de su pedido, introduzca su E-mail y hacer clic "Guardar".
                     </p>
-                    <form class="order-form" id="email_form" action="#">
-                        <fieldset>
-                            <div class="text">
-                                <input type="email" id="email" placeholder="Geben Sie Ihre Email-Adresse ein..." name="email">
-                            </div>
-                            <input data-error="Geben Sie Ihre Email-Adresse ein..." data-success="  Danke! für Ihre Bestellung!" class="btn-save" type="submit" value="Speichern">
-                        </fieldset>
-
-                    </form>
                 </div>
 
             </div>
         </div>
+
     </div>
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '467344047956851');
-  fbq('track', 'Lead');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=467344047956851&ev=Lead&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-url-parser/2.3.1/purl.min.js"></script>
-    <script src="https://click.lucky.online/js/leadprofit.js"></script>
-    <script>
-        $(function() {
-
-            $(document).leadprofitConfirm();
-
-            $('input').on('change', function(e) {
-                $('#' + e.target.name).attr('data-comment', e.target.value);
-                $('.btn-save-adress').unbind('click');
-                $('[data-comment]').leadprofitAddComment();
-            });
-
-        }());
-    </script>
 </body>
 
 </html>
